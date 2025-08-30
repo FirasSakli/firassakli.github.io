@@ -7,7 +7,7 @@ import {
 	useMotionTemplate,
 	useTransform,
 } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import {
 	ChevronDown,
 	Download,
@@ -264,3 +264,4 @@ export default function HeroSection() {
 		</section>
 	);
 }
+
