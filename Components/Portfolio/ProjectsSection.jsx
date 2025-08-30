@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Projects } from "@/entities/Project";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Badge } from "@/Components/ui/badge";
+import { Button } from "@/Components/ui/button";
 import { ExternalLink, Github, X } from "lucide-react";
 import {
 	Dialog,
 	DialogContent,
 	DialogHeader,
 	DialogTitle,
-} from "@/components/ui/dialog";
+} from "@/Components/ui/dialog";
 
 export default function ProjectsSection() {
 	const [projects, setProjects] = useState([]);
@@ -354,3 +354,4 @@ export default function ProjectsSection() {
 		</section>
 	);
 }
+
