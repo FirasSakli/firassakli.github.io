@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack && next export",
-    "start": "serve out",
-    "deploy": "npm run build",
-    "lint": "eslint"
-  },
+    "dev": "next dev",
+    "build": "next build",        
+    "start": "serve out",         
+    "deploy": "npm run build"
+  }
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@radix-ui/react-dialog": "^1.1.15",
