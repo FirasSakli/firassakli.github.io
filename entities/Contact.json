@@ -1,0 +1,38 @@
+{
+  "name": "Contact",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Contact name"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Contact email"
+    },
+    "company": {
+      "type": "string",
+      "description": "Company name"
+    },
+    "message": {
+      "type": "string",
+      "description": "Contact message"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "recruiter",
+        "collaboration",
+        "general"
+      ],
+      "default": "general",
+      "description": "Type of contact"
+    }
+  },
+  "required": [
+    "name",
+    "email",
+    "message"
+  ]
+}

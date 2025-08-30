@@ -1,0 +1,93 @@
+[
+	{
+		"id": 1,
+		"name": "JavaScript",
+		"category": "programming",
+		"proficiency": 5,
+		"years_experience": 4
+	},
+	{
+		"id": 2,
+		"name": "Python",
+		"category": "programming",
+		"proficiency": 5,
+		"years_experience": 5
+	},
+	{
+		"id": 3,
+		"name": "React",
+		"category": "programming",
+		"proficiency": 4,
+		"years_experience": 3
+	},
+	{
+		"id": 4,
+		"name": "TypeScript",
+		"category": "programming",
+		"proficiency": 4,
+		"years_experience": 2
+	},
+	{
+		"id": 5,
+		"name": "TensorFlow",
+		"category": "machine_learning",
+		"proficiency": 4,
+		"years_experience": 2
+	},
+	{
+		"id": 6,
+		"name": "scikit-learn",
+		"category": "machine_learning",
+		"proficiency": 5,
+		"years_experience": 3
+	},
+	{
+		"id": 7,
+		"name": "PostgreSQL",
+		"category": "databases",
+		"proficiency": 4,
+		"years_experience": 3
+	},
+	{
+		"id": 8,
+		"name": "MongoDB",
+		"category": "databases",
+		"proficiency": 4,
+		"years_experience": 3
+	},
+	{
+		"id": 9,
+		"name": "AWS",
+		"category": "cloud",
+		"proficiency": 3,
+		"years_experience": 2
+	},
+	{
+		"id": 10,
+		"name": "Docker",
+		"category": "cloud",
+		"proficiency": 4,
+		"years_experience": 2
+	},
+	{
+		"id": 11,
+		"name": "Tableau",
+		"category": "visualization",
+		"proficiency": 2,
+		"years_experience": 2
+	},
+	{
+		"id": 12,
+		"name": "Matplotlib",
+		"category": "visualization",
+		"proficiency": 5,
+		"years_experience": 3
+	},
+	{
+		"id": 13,
+		"name": "Power BI",
+		"category": "visualization",
+		"proficiency": 5,
+		"years_experience": 3
+	}
+]
