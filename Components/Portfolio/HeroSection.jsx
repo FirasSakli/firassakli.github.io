@@ -185,14 +185,14 @@ export default function HeroSection() {
 							className="flex gap-6 justify-center lg:justify-start"
 						>
 							<a
-								href="https://github.com/SaklyFiras"
+								href="https://github.com/FirasSakli"
 								className="text-slate-400 hover:text-purple-400 transition-colors"
 								aria-label="GitHub"
 							>
 								<Github className="w-6 h-6" />
 							</a>
 							<a
-								href="https://www.linkedin.com/in/firas-sakly-872658183/"
+								href="https://www.linkedin.com/in/firas-sakli-872658183/"
 								className="text-slate-400 hover:text-purple-400 transition-colors"
 								aria-label="LinkedIn"
 							>
@@ -264,4 +264,5 @@ export default function HeroSection() {
 		</section>
 	);
 }
+
 
