@@ -4,10 +4,10 @@ import { BarChart, Brain, Database, TrendingUp } from "lucide-react";
 
 export default function AboutSection() {
 	const stats = [
-		{ icon: BarChart, label: "Projects Completed", value: "25+" },
-		{ icon: Brain, label: "ML Models Deployed", value: "15+" },
-		{ icon: Database, label: "Datasets Analyzed", value: "100+" },
-		{ icon: TrendingUp, label: "Years Experience", value: "4+" },
+		{ icon: BarChart, label: "Projects Completed", value: "Several" },
+		{ icon: Brain, label: "ML Models Deployed", value: "Multiple" },
+		{ icon: Database, label: "Datasets Analyzed", value: "Numerous" },
+		{ icon: TrendingUp, label: "Years Experience", value: "A Few" },
 	];
 
 	return (
@@ -106,3 +106,4 @@ export default function AboutSection() {
 		</section>
 	);
 }
+
