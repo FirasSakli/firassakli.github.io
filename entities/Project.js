@@ -69,11 +69,12 @@ export const Projects = [
 	category: "data_engineering",
 	github_url: "https://github.com/FirasSakli/customer-churn-analytics-azure",
 	demo_url: "",
-	image_url: "https://www.projectpro.io/article/azure-medallion-architecture/1159",
+	image_url: "https://daxg39y63pxwu.cloudfront.net/images/blog/azure-medallion-architecture/Azure_Medallion_Architecture.webp",
 	impact:
 		"Enabled live churn monitoring and revenue-at-risk analysis through a serverless, cloud-native analytics architecture suitable for enterprise environments.",
 	featured: true
 }
 
 ];
+
 
