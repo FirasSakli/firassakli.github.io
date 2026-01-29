@@ -149,9 +149,9 @@ export default function HeroSection() {
 							transition={{ delay: 0.35 }}
 							className="text-xl text-slate-300 mb-8 leading-relaxed"
 						>
-							Master’s student in Web and Data Science with experience in
-							Python, SQL, and modern data tools. Skilled in ETL, visualization,
-							and applying machine learning for insights.
+							Entry-level Data Scientist and Analytics Engineer with hands-on experience building end-to-end analytics platforms
+using Python, SQL, Microsoft Azure, and Power BI. Strong focus on interpretable machine learning, data engineering,
+and business-facing dashboards. Currently pursuing a Master’s in Web and Data Science.
 						</motion.p>
 
 						<motion.div
@@ -264,5 +264,6 @@ export default function HeroSection() {
 		</section>
 	);
 }
+
 
 
