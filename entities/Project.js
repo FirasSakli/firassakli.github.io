@@ -48,4 +48,32 @@ export const Projects = [
 			"Improved visibility into revenue, delivery, and returns, enabling data-driven decision making.",
 		featured: true,
 	},
+	{
+	id: 3,
+	title: "Enterprise Customer Churn Analytics Platform (Microsoft Azure)",
+	description: "End-to-end customer churn analytics platform built on the Microsoft Azure ecosystem.",
+	detailed_description:
+		"Designed and implemented an enterprise-style churn analytics platform covering the full data lifecycle. Built a multi-layer data lake (bronze/silver/gold) using Azure Data Lake Storage Gen2, trained interpretable churn models (Logistic Regression, Random Forest), and exposed analytics via Azure Synapse Serverless SQL views. Connected Power BI Desktop via DirectQuery to deliver live executive dashboards with churn KPIs and Revenue-at-Risk insights, following cost-aware and production-oriented cloud best practices.",
+	technologies: [
+		"Python",
+		"SQL",
+		"Azure Data Lake Gen2",
+		"Azure Synapse Serverless SQL",
+		"Power BI",
+		"DirectQuery",
+		"DAX",
+		"Scikit-learn",
+		"Pandas",
+		"Parquet"
+	],
+	category: "data_engineering",
+	github_url: "https://github.com/FirasSakli/customer-churn-analytics-azure",
+	demo_url: "",
+	image_url: "https://www.projectpro.io/article/azure-medallion-architecture/1159",
+	impact:
+		"Enabled live churn monitoring and revenue-at-risk analysis through a serverless, cloud-native analytics architecture suitable for enterprise environments.",
+	featured: true
+}
+
 ];
+
