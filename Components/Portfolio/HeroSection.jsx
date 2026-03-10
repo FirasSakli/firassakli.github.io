@@ -7,7 +7,7 @@ import {
 	useMotionTemplate,
 	useTransform,
 } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import {
 	ChevronDown,
 	Download,
@@ -204,7 +204,10 @@ export default function HeroSection() {
 								aria-label="Email"
 								onClick={(e) => {
 									e.preventDefault();
-									window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+									window.scrollTo({
+										top: document.body.scrollHeight,
+										behavior: "smooth",
+									});
 								}}
 							>
 								<Mail className="w-6 h-6" />

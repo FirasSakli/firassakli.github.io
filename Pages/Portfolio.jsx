@@ -1,10 +1,10 @@
 "use client";
 import React, { useEffect } from "react";
-import HeroSection from "../components/Portfolio/HeroSection";
-import AboutSection from "../components/Portfolio/AboutSection";
-import SkillsSection from "../components/Portfolio/SkillsSection";
-import ProjectsSection from "../components/Portfolio/ProjectsSection";
-import ContactSection from "../components/Portfolio/ContactSection";
+import HeroSection from "../Components/Portfolio/HeroSection.jsx";
+import AboutSection from "../Components/Portfolio/AboutSection.jsx";
+import SkillsSection from "../Components/Portfolio/SkillsSection.jsx";
+import ProjectsSection from "../Components/Portfolio/ProjectsSection.jsx";
+import ContactSection from "../Components/Portfolio/ContactSection.jsx";
 
 export default function Portfolio() {
 	useEffect(() => {

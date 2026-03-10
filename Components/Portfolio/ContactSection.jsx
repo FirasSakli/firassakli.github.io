@@ -1,16 +1,16 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/Components/ui/button";
+import { Input } from "@/Components/ui/input";
+import { Textarea } from "@/Components/ui/textarea";
 import {
 	Select,
 	SelectContent,
 	SelectItem,
 	SelectTrigger,
 	SelectValue,
-} from "@/components/ui/select";
+} from "@/Components/ui/select";
 import { Send } from "lucide-react";
 import { Toaster, toast as sonnerToast } from "sonner";
 import { sendContactEmail } from "@/lib/sendContactEmail";
@@ -48,7 +48,7 @@ export default function ContactSection() {
 				{
 					toName: "Firas Sakli",
 					subject: `New Contact Form Submission from ${formData.name}`,
-				}
+				},
 			);
 
 			sonnerToast("Message sent successfully! I’ll get back to you soon.");
@@ -63,7 +63,7 @@ export default function ContactSection() {
 		} catch (err) {
 			console.error(err);
 			sonnerToast(
-				"Error sending message. Please try again or email me directly."
+				"Error sending message. Please try again or email me directly.",
 			);
 		} finally {
 			setIsSubmitting(false);
