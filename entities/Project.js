@@ -19,7 +19,8 @@ export const Projects = [
 			"Streamlit",
 		],
 		category: "machine_learning",
-		github_url: "https://github.com/SaklyFiras/German-Energy-Market-Price-Forecasting-Renewables-Impact",
+		github_url:
+			"https://github.com/SaklyFiras/German-Energy-Market-Price-Forecasting-Renewables-Impact",
 		demo_url: "",
 		image_url: German_Energy_Market_Price_Forecasting.src,
 		impact:
@@ -41,11 +42,40 @@ export const Projects = [
 			"Time Series Forecasting",
 		],
 		category: "business_intelligence",
-		github_url: "https://github.com/SaklyFiras/Global-E-Commerce-KPI-Dashboard-with-Predictive-Insights",
+		github_url:
+			"https://github.com/SaklyFiras/Global-E-Commerce-KPI-Dashboard-with-Predictive-Insights",
 		demo_url: "",
 		image_url: Global_E_commerce_BI_Dashboard.src,
 		impact:
 			"Improved visibility into revenue, delivery, and returns, enabling data-driven decision making.",
+		featured: true,
+	},
+	{
+		id: 3,
+		title: "Enterprise Customer Churn Analytics Platform (Microsoft Azure)",
+		description:
+			"End-to-end customer churn analytics platform built on the Microsoft Azure ecosystem.",
+		detailed_description:
+			"Designed and implemented an enterprise-style churn analytics platform covering the full data lifecycle. Built a multi-layer data lake (bronze/silver/gold) using Azure Data Lake Storage Gen2, trained interpretable churn models (Logistic Regression, Random Forest), and exposed analytics via Azure Synapse Serverless SQL views. Connected Power BI Desktop via DirectQuery to deliver live executive dashboards with churn KPIs and Revenue-at-Risk insights, following cost-aware and production-oriented cloud best practices.",
+		technologies: [
+			"Python",
+			"SQL",
+			"Azure Data Lake Gen2",
+			"Azure Synapse Serverless SQL",
+			"Power BI",
+			"DirectQuery",
+			"DAX",
+			"Scikit-learn",
+			"Pandas",
+			"Parquet",
+		],
+		category: "data_engineering",
+		github_url: "https://github.com/FirasSakli/customer-churn-analytics-azure",
+		demo_url: "",
+		image_url:
+			"https://media.licdn.com/dms/image/v2/D4D12AQFX8rkTEgQK1w/article-cover_image-shrink_720_1280/B4DZaHr0_sGgAQ-/0/1746033137826?e=1774483200&v=beta&t=Ieopk0ahHMmxGo1ygYZlRkFLwShFAkRDsWSYlkPQ0IY",
+		impact:
+			"Enabled live churn monitoring and revenue-at-risk analysis through a serverless, cloud-native analytics architecture suitable for enterprise environments.",
 		featured: true,
 	},
 ];
